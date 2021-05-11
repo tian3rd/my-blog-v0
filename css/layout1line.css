@@ -27,3 +27,43 @@ body {
   margin-left: 3%;
   margin-right: 3%;
 }
+
+.hr-line {
+  margin: 2% auto 2% auto;
+  width: 3%;
+  border-style: none none solid none;
+  border-bottom-width: 1px;
+  border-color: grey;
+  /* size: 3px; */
+}
+
+.example2 {
+  display: grid;
+  place-items: center;
+  background-color: darkcyan;
+  width: 550px;
+  height: 300px;
+  border-radius: 40% 10%;
+  margin: auto;
+  color: whitesmoke;
+}
+
+.example2 .hover-img {
+  position: relative;
+}
+
+.hover-img span {
+  position: absolute;
+  left: -10000px;
+  top: -10000px;
+  z-index: 100;
+}
+
+.hover-img:hover span {
+  top: 20px;
+  left: 0;
+}
+
+.img-rounded {
+  border-radius: 10%;
+}
